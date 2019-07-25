@@ -45,7 +45,7 @@ input {
     border-top-left-radius: inherit;
     padding: 2.5% 7.5%;
     font-size: 1.15em;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 .fa-sync-alt {
@@ -63,4 +63,9 @@ input {
 .fa-sync-alt:hover {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(200, 200, 200);
+}
+.center {text-align: center;}
+.tmid {margin: 0px auto;}
+.logo{
+    margin-left: 25%;
 }
