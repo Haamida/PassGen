@@ -5,21 +5,26 @@
     {% endblock %}
 </head>
 <body>
-<div class="content">
-    <img src="{{ asset('build/logo.png') }}">
+<div class="content ">
+ <div class="vertical-center">
+        <img src="{{ asset('build/logo.png') }}">
+
     {{ form_start(form) }}
-    <div class="input-button-group">
+    <div class="input-button-group ">
         {{ form_widget(form.password,{'attr':{'disabled':'disabled','class':'password'}}) }}
-        <button type="submit" class="fa-sync-alt">Go</button>
+        <button type="submit" class="fa-sync-alt">Generate</button>
     </div>
     {{ form_end(form) }}
+ </div>
 </div>
 <footer class="footer tmid center">
-    <div >Icons made by
-        <a  href="https://www.freepik.com/?__hstc=57440181.7e0bac7bedad312baa3f549e38cf2f27.1563728604777.1563744694874.1563823620973.3&__hssc=57440181.4.1563823620973&__hsfp=1902811784" title="Freepik">Freepik</a>
+    <div>Icons made by
+        <a href="https://www.freepik.com/?__hstc=57440181.7e0bac7bedad312baa3f549e38cf2f27.1563728604777.1563744694874.1563823620973.3&__hssc=57440181.4.1563823620973&__hsfp=1902811784"
+           title="Freepik">Freepik</a>
         from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         is licensed by
-        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0
+            BY</a>
     </div>
 </footer>
 </body>
