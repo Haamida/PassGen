@@ -2,15 +2,6 @@ body {
     background-color: rgb(26, 30, 40);
     overflow: hidden;
 }
-.header {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: 40%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -40%);
-}
 i {
     color: rgb(200, 200, 200);
     transition: 0.5s;
@@ -68,4 +59,17 @@ input {
 .tmid {margin: 0px auto;}
 .logo{
     margin-left: 25%;
+}
+
+.content {
+    min-height: calc(100vh - 70px);
+}
+.footer {
+    height: 50px;
+    color: white;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }
