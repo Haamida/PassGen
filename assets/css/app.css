@@ -35,7 +35,7 @@ input {
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
     padding: 2.5% 2.5%;
-    font-size: 1.15em;
+    font-size: 1.2em;
     width: 70%;
     height: auto;
 }
@@ -77,7 +77,8 @@ a:-webkit-any-link {
     margin-top: 5%;
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 35%;
+    width: 30%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }

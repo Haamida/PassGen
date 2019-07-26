@@ -11,7 +11,11 @@
 
     {{ form_start(form) }}
     <div class="input-button-group ">
-        {{ form_widget(form.password,{'attr':{'disabled':'disabled','class':'password'}}) }}
+        {% if password is defined and password is not null %}
+        {{ form_widget(form.password,{'attr':{'disabled':'disabled','class':'password','value':password}}) }}
+        {% else %}
+            {{ form_widget(form.password,{'attr':{'disabled':'disabled','class':'password'}}) }}
+        {% endif %}
         <button type="submit" class="fa-sync-alt">Generate</button>
     </div>
     {{ form_end(form) }}
