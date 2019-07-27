@@ -1,6 +1,8 @@
 <html>
 <head>
+
     {% block stylesheets %}
+        <link href='https://fonts.googleapis.com/css?family=Tenali Ramakrishna' rel='stylesheet'>
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 </head>
@@ -20,6 +22,16 @@
     </div>
     {{ form_end(form) }}
  </div>
+    <div class="vertical-center-2nd ">
+        <ul class="tags">
+            <li>
+                <i class="fas fa-tag"></i><span>Easly generated unique strong password.</span>
+            </li>
+            <li>
+                <i class="fas fa-tag"></i><span>Passwords are not saved to the server.</span>
+            </li>
+        </ul>
+    </div>
 </div>
 <footer class="footer tmid center">
     <div>Icons made by

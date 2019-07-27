@@ -30,30 +30,34 @@ input:focus {
 }
 input {
     border: none;
+    font-family: 'Tenali Ramakrishna';
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border-bottom-left-radius: inherit;
     border-top-left-radius: inherit;
     padding: 2.5% 2.5%;
     font-size: 1.2em;
-    width: 70%;
+    width: 60%;
     height: auto;
 }
 .fa-sync-alt {
+    font-family: 'Tenali Ramakrishna';
     border: none;
-    color: rgb(26, 30, 40);
-    background-color: rgb(200, 200, 200);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #1A1F28;
     border-left: 1px solid rgb(200, 200, 200);
     border-bottom-right-radius: inherit;
     border-top-right-radius: inherit;
     padding: 2.5% 2%;
-    width: 30%;
+    font-size: 1.2em;
+    width: 40%;
     height: auto;
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3 51%, #E0EAFC 100%);
     cursor: pointer;
 }
 .fa-sync-alt:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(200, 200, 200);
+    background-position: right center;
 }
 .center {text-align: center;}
 .tmid {margin: 0px auto;}
@@ -77,13 +81,13 @@ a:-webkit-any-link {
     margin-top: 5%;
     position: absolute;
     top: 30%;
-    left: 35%;
-    width: 30%;
+    left: 37%;
+    width: 27%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 .vertical-center >img {
-    margin-left: 27%;
+    margin-left: 30%;
 }
 body:after{
     content: "beta";
@@ -103,4 +107,34 @@ body:after{
     -ms-transform:rotate(-45deg);
     -webkit-transform:rotate(-45deg);
     transform:rotate(-45deg);
+}
+.vertical-center-2nd {
+    margin-top: 5%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    width: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.tags{
+    list-style-type: none;
+    margin: 0;
+    padding: 12%;
+    font-family: Verdana, "sans-serife", monospace;
+}
+
+ul.tags li {
+    font-family: 'Tenali Ramakrishna';
+    font-size: 1.15em;
+    margin: 5px;
+    padding: 5px;
+    color: #f4f4f4;
+    border-radius: 5px;
+}
+
+ul.tags i{
+    padding-right: 5px;
 }
